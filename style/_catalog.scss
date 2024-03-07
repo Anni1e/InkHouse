@@ -1,0 +1,89 @@
+.catalog {
+  margin: 0 auto;
+  max-width: 1140px;
+  &__title {
+    margin-top: 70px;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      color: #2c2d35;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 110%;
+    }
+  }
+  &__input {
+    display: flex;
+    gap: 32px;
+
+    p {
+      border-radius: 20px;
+      background: #d4e8d9;
+      color: #2c2d35;
+      font-size: 20px;
+      font-weight: 500;
+      width: 135px;
+      height: 43px;
+      padding: 10px 20px;
+      text-align: center;
+      transition: 0.6s;
+      cursor: pointer;
+      &:hover {
+        background: #598d66;
+        color: #d4e8d9;
+      }
+    }
+  }
+  &__cards {
+    margin: 30px auto 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  &__card {
+    background: #e1ede6;
+    max-width: 350px;
+    max-height: 730px;
+    padding: 20px 20px 30px 20px;
+
+    h3 {
+      color: #2c2d35;
+      font-size: 30px;
+      font-weight: 500;
+    }
+  }
+}
+.card__btn {
+  max-width: 310px;
+  max-height: 65px;
+  color: #598d66;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #598d66;
+  transition: 0.6s;
+  cursor: pointer;
+  &:hover {
+    background: #598d66;
+    color: #d4e8d9;
+  }
+}
+.autor {
+  margin: 20px 0 10px;
+  color: #86928b;
+  font-size: 18px;
+  font-weight: 500;
+}
+.materials {
+  margin: 8px 0 30px;
+  color: #2c2d35;
+  font-size: 18px;
+  font-weight: 500;
+}
+.price {
+  margin-bottom: 20px;
+  color: #598d66;
+  font-size: 24px;
+  font-weight: 500;
+}

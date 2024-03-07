@@ -1,0 +1,52 @@
+.navigation {
+  display: flex;
+}
+
+.shopping:hover svg path {
+  fill: #598d66;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: #e1ede6;
+  max-height: 100px;
+  padding: 33px 165px 32px 165px;
+}
+.header {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 35px;
+  }
+  &__name {
+    color: #598d66;
+    font-size: 20px;
+    font-weight: 700;
+    height: 23px;
+  }
+}
+.navigation__text {
+  display: flex;
+  max-width: 472px;
+  width: 100vw;
+  gap: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  a {
+    color: rgb(44, 45, 53);
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      color: #598d66;
+    }
+  }
+}
